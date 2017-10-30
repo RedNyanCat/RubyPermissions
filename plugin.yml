@@ -1,0 +1,15 @@
+name: RubyPermissions
+version: 0.1.0a
+load: POSTWORLD
+author: RedNyanCat
+main: me.RedNyanCat.rp.setup
+prefix: "#RubyPermissions#"
+
+commands:
+  RubyPermissions:
+    description: Base command.
+    usage: /RubyPermissions <setRank, setSuffix> <target> <rank (case sensitive)>
+
+permissions:
+  RubyPermissions.change:
+    default: op
