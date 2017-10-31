@@ -8,8 +8,14 @@ prefix: "#RubyPermissions#"
 commands:
   RubyPermissions:
     description: Base command.
-    usage: /RubyPermissions <setRank, setSuffix> <target> <rank (case sensitive)>
+    usage: /RubyPermissions <setRank, setSuffix, createRank, createSuffix, addPerm> <target, rank, name> <rank (case sensitive), name, tag> <default>
 
 permissions:
   RubyPermissions.change:
+    default: op
+  RubyPermissions.createRank:
+    default: op
+  RubyPermissions.createSuffix:
+    default: op
+  RubyPermissions.addPerm:
     default: op

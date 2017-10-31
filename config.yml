@@ -1,0 +1,29 @@
+Univeral:
+  Permissions: []
+  enabled: false
+Permissions:
+  Default:
+    Default: true
+    Permissions: []
+    Prefix: "&f[&3Default&f]"
+    Players: []
+  Vip:
+    Permissions: []
+    Prefix: "&f[&6Vip&f]"
+    Players: []
+  Mod:
+    Permissions: []
+    Prefix: "&f[&5Mod&f]"
+    Players: []
+  Admin:
+    Permissions: 
+      - bukkit.command.reload
+    Prefix: "&f[&4Admin&f]"
+    Players: []
+Suffixes:
+  Nub:
+    Players: []
+    Suffix: "&f[&1NUB&f]"
+  Vip:
+    Players: []
+    Suffix: "&f[&6Vip&f]"
